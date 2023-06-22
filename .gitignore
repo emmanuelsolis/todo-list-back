@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Dependencias específicas del sistema operativo
+.DS_Store
+Thumbs.db
