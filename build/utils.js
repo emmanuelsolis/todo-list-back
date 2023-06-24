@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const types_d_js_1 = require("./types.d.js");
+const types_1 = require("./types");
 const isString = (string) => {
     return typeof string === 'string';
 };
@@ -23,7 +23,7 @@ const parseStatus = (statusFromRequest) => {
     return statusFromRequest;
 };
 const isStatus = (param) => {
-    return Object.values(types_d_js_1.Status).includes(param);
+    return Object.values(types_1.Status).includes(param);
 };
 const toNewTaskEntry = (object) => {
     const newEntry = {
@@ -34,3 +34,4 @@ const toNewTaskEntry = (object) => {
     return newEntry;
 };
 exports.default = toNewTaskEntry;
+//# sourceMappingURL=utils.js.map

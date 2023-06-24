@@ -1,4 +1,4 @@
-import { Status, newTaskEntry } from './types.d.js'
+import { Status, newTaskEntry } from './types'
 
 const isString = (string: string): boolean => {
   return typeof string === 'string'

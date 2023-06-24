@@ -28,3 +28,4 @@ exports.router.post('/', (req, res) => {
         res.status(400).send(e.message);
     }
 });
+//# sourceMappingURL=routes.js.map

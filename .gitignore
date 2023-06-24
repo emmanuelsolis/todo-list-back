@@ -17,3 +17,5 @@ logs/
 # Dependencias específicas del sistema operativo
 .DS_Store
 Thumbs.db
+
+.env
